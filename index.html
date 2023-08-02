@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+  <title>Assignment</title>
+  <link rel="icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKm-ELm4wsGRex8ivfleOo5-H67Rcbfz6knw&usqp=CAU">
+  <link rel="stylesheet" href="/index.css" />
+</head>
+<body>
+  <div class="head">
+    <span>Add Candidates to Database</span>
+  </div>
+  <div class="formContainer">
+    <form id="form">  
+      <input id="file" type="file" class="hidden" onchange="canSubmit()" name="myfile" accept="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet, application/vnd.ms-excel"/>
+      <label for="file">
+        <img src="/upload.svg" alt="" class="upload-img">
+      </label>
+      <p id="fileName"></p>
+      <br/><br/>  
+      <span class="desc">Upload a .xlsx or xls file here</span>
+      <input value="Upload File"  type="submit" class="submit hidden"><br/><br/>  
+    </form>  
+    <div class="status hidden">
+        <p class="green">Thank You!</p>
+        <p><span class="green">✔</span> File Successfully Uploaded.</p>
+        <p>Your records will be processed shortly.</p>
+      </div>
+  </div>
+  <script src="/script.js"></script>
+</body>
+</html>

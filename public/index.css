@@ -1,0 +1,42 @@
+html {
+  height: 100vh;
+  background: #e3e0e0;
+}
+
+.formContainer {
+  text-align: center;
+  border: 2px solid;
+}
+
+.head {
+  margin: 4% 2%;
+}
+
+.upload-img {
+  cursor: pointer;
+  padding-top: 3%;
+}
+
+#file {
+  padding: 5%;
+}
+
+.hidden {
+  display: none;
+}
+
+.submit {
+  padding: 2%;
+  border-radius: 8px;
+  border: 0;
+  background: #447f44;
+  color: white;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+.green {
+  color: #07b107;
+  font-weight: 700;
+}
+
